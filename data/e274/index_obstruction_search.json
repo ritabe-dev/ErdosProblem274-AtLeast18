@@ -1,0 +1,283 @@
+{
+  "arithmetic_conditions": [
+    "strictly increasing denominators greater than 2",
+    "exact reciprocal sum one",
+    "pairwise gcd greater than one"
+  ],
+  "claim_boundary": "Survivors are arithmetic index candidates only, not coset partitions. The group reduction, source-imported non-harmonic propositions, and search-completeness proof are separate dependencies.",
+  "problem_id": "E274",
+  "profiles": {
+    "p42_p43": {
+      "first_survivor_count": 28,
+      "first_survivor_r": 15,
+      "first_survivors_sha256": "c246c57324c881e5b263b275290710682a8072027b2736a3b4c07e78ed735eec",
+      "results": [
+        {
+          "nodes": 1,
+          "r": 2,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 2,
+          "r": 3,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 3,
+          "r": 4,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 5,
+          "r": 5,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 7,
+          "r": 6,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 12,
+          "r": 7,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 16,
+          "r": 8,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 25,
+          "r": 9,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 37,
+          "r": 10,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 56,
+          "r": 11,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 90,
+          "r": 12,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 155,
+          "r": 13,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 297,
+          "r": 14,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 2216,
+          "r": 15,
+          "survivor_count": 28
+        }
+      ]
+    },
+    "p42_p43_p45_p47": {
+      "first_survivor_count": 5,
+      "first_survivor_r": 17,
+      "first_survivors": [
+        [
+          4,
+          6,
+          8,
+          12,
+          16,
+          18,
+          24,
+          30,
+          32,
+          36,
+          40,
+          42,
+          48,
+          54,
+          56,
+          60,
+          4320
+        ],
+        [
+          4,
+          6,
+          8,
+          12,
+          16,
+          18,
+          24,
+          30,
+          32,
+          36,
+          40,
+          42,
+          48,
+          56,
+          60,
+          64,
+          320
+        ],
+        [
+          4,
+          6,
+          8,
+          12,
+          16,
+          18,
+          24,
+          30,
+          32,
+          36,
+          40,
+          42,
+          48,
+          56,
+          60,
+          80,
+          160
+        ],
+        [
+          4,
+          6,
+          8,
+          12,
+          16,
+          18,
+          24,
+          30,
+          32,
+          36,
+          40,
+          42,
+          48,
+          56,
+          60,
+          96,
+          120
+        ],
+        [
+          4,
+          6,
+          8,
+          12,
+          16,
+          18,
+          24,
+          30,
+          32,
+          36,
+          40,
+          42,
+          48,
+          56,
+          72,
+          90,
+          96
+        ]
+      ],
+      "first_survivors_sha256": "0244dcaa451200177fe26b8ea2b8ab53f3737817004129afbd9969e1bead2d57",
+      "results": [
+        {
+          "nodes": 1,
+          "r": 2,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 2,
+          "r": 3,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 3,
+          "r": 4,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 5,
+          "r": 5,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 7,
+          "r": 6,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 12,
+          "r": 7,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 16,
+          "r": 8,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 25,
+          "r": 9,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 36,
+          "r": 10,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 53,
+          "r": 11,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 77,
+          "r": 12,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 117,
+          "r": 13,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 161,
+          "r": 14,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 244,
+          "r": 15,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 406,
+          "r": 16,
+          "survivor_count": 0
+        },
+        {
+          "nodes": 1052,
+          "r": 17,
+          "survivor_count": 5
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "independent_script_sha256": "90001ed140f838916b0be19d3efa0f3696802761f9c0a939bda5bbc39e2a6edc",
+    "primary_script_sha256": "c757bea9e6a39452cc589f500bc5345f2700cf8a56732b1d83e2297658048504"
+  },
+  "published_obstructions": {
+    "p42": "No subtuple (2*r1,2*r2,2*r3) with pairwise-coprime residuals.",
+    "p43": "No subtuple (3*r1,3*r2,3*r3,3*r4) with pairwise-coprime residuals.",
+    "p45": "No subtuple (2*r1,4*r2,4*r3,4*r4) with r1 odd and pairwise-coprime residuals.",
+    "p47": "No subtuple (3,3*r2,6*r3,6*r4,6*r5) with r2 odd and pairwise-coprime residuals."
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,15 @@
+import ErdosProblems.E274.FiberKernelDFSProfileData
+
+/-! Generated kernel certificate branch; do not edit by hand. -/
+
+namespace ErdosProblems.E274
+
+set_option maxRecDepth 1000000 in
+set_option maxHeartbeats 0 in
+/-- Kernel evaluation rejects a DFS subtree of 3473 visited states. -/
+theorem kernelFiberP1_leaf0_unsat :
+    kernelFiberDFS4 45360 [12, 16, 18, 24, 30, 32, 36, 40, 42, 48, 54, 56, 60, 4320]
+      [(15120, [3]), (15120, [3]), (22680, [2])] = false := by
+  decide +kernel
+
+end ErdosProblems.E274

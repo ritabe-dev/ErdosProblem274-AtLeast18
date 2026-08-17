@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  This is an unreviewed computer-assisted review candidate. Cite an exact
+  tagged release only after verifying its recorded commit, CI run, and
+  SHA-256 values.
+title: "The Herzog-Schönheim conjecture for coset partitions with at most seventeen cells"
+type: software
+authors:
+  - family-names: Itabe
+    given-names: Rio
+version: "0.4.2-review-candidate"
+repository-code: "https://github.com/ritabe-dev/ErdosProblem274-AtLeast18"
+license: MIT
+keywords:
+  - group theory
+  - coset partitions
+  - Herzog-Schönheim conjecture
+  - exact enumeration
+  - Lean 4
+preferred-citation:
+  type: article
+  title: "The Herzog-Schönheim conjecture for coset partitions with at most seventeen cells"
+  authors:
+    - family-names: Itabe
+      given-names: Rio
+  year: 2026
